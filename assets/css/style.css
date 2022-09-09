@@ -1,14 +1,16 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/0994e0a6-dda1-402c-bcbc-480350941609/BR-pt-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.9) 0,transparent 60%,rgba(0,0,0,.9)), url(https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/0994e0a6-dda1-402c-bcbc-480350941609/BR-pt-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size: cover;
+    position: relative;
 }
 .header {
     display: flex;
@@ -58,10 +60,76 @@
         background-color: rgba(0, 0, 0, 0.575);
         font-weight: bold;
     }
+
 .conteudo{
-    background-color: #e50914;
-    padding-top: 30vh;
+    position: absolute;
+    width: 100vw;
+    padding-top: 26vh;
     text-align: center;
+    margin-top: 30px;
+}
+.texto h1{
     color: #fff;
-    font-size: 55px;
+    font-size: 3.1em;
+    margin-bottom: 15px;
+}
+.texto h2{
+    color: #fff;
+    font-size: 1.7em;
+    margin-bottom: 23px;
+}
+.texto h3{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+
+.assinatura{
+    display: flex;
+    flex-direction: row;
+    
+}
+.assinatura input{
+    height: 9.3vh;
+    width: 34.7vw;
+    font-size: 1.2em;
+    margin: 15px;
+}
+.assinatura a{
+    height: 9.3vh;
+    width: 13vw;
+    font-size: 2em;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.campos {
+    display: flex;
+    height: 40px;
+    padding-top: 26px;
+    padding-left: 26vw;
+}
+
+.btn-vamosla {
+    display: flex;
+    background-color: #e50914;
+    height: 55px;
+    width: 185px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+    .btn-vamosla a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.8em;
+    }
+
+.email input{
+    height: 51px;
+    width: 450px;
+    font-size: 1.1em;
 }
